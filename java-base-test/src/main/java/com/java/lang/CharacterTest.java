@@ -12,4 +12,10 @@ public class CharacterTest {
         character = Character.valueOf('\uffff');
         System.out.println(character);
     }
+
+    @Test
+    public void testValueOf() {
+        Character character = Character.valueOf('黄');
+        System.out.println(character);
+    }
 }
